@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>İletişim | KYDD 2026</title>
+<meta name="description" content="KYDD 2026 çalıştayı iletişim bilgileri, adres ve mesaj formu — Yeditepe Üniversitesi Rektörlük Binası, Mario Levi Salonu, Ataşehir / İstanbul.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/site-data.js"></script>
+<script src="assets/js/layout.js"></script>
+</head>
+<body data-page="iletisim.html">
+
+<a class="skip-link" href="#main">İçeriğe geç</a>
+
+<div data-kydd="header"></div>
+<script>KYDD.mountHeader();</script>
+
+<main id="main">
+
+  <section class="page-head">
+    <div class="container">
+      <ul class="breadcrumb">
+        <li><a href="index.html">Ana sayfa</a></li>
+        <li>İletişim</li>
+      </ul>
+      <h1>İletişim</h1>
+      <p>Çalıştayla ilgili soru, öneri ve iş birliği talepleriniz için bize
+        ulaşabilirsiniz.</p>
+    </div>
+  </section>
+
+  <div data-kydd="factbar"></div>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Genişletilmiş iletişim kartı -->
+        <div class="aside-box aside-box--accent contact-grid__main">
+          <h3>İletişim ve Adres</h3>
+          <ul class="info-list">
+            <li>
+              <strong>E-posta</strong>
+              <a href="mailto:yukarbon@yeditepe.edu.tr"
+                 data-kydd-text="event.email">yukarbon@yeditepe.edu.tr</a>
+            </li>
+            <li>
+              <strong>Telefon</strong>
+              <a href="tel:+905343768313" data-kydd-text="event.phone"></a>
+            </li>
+            <li>
+              <strong>Çalıştay Yeri</strong>
+              <span data-kydd-text="event.venueName"></span><br>
+              <span data-kydd-text="event.venueHall"></span><br>
+              <span data-kydd-text="event.venueAddress"></span>
+            </li>
+            <li>
+              <strong>Tarih ve Saat</strong>
+              <span data-kydd-text="event.dateText"></span>,
+              <span data-kydd-text="event.timeText"></span>
+            </li>
+            <li>
+              <strong>Düzenleyen</strong>
+              <span data-kydd-text="event.center"></span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contact-grid__side">
+          <div class="aside-box">
+            <h3>Ulaşım</h3>
+            <ul class="info-list">
+              <li>Kampüse araçla gelecek katılımcıların
+                <a href="kayit.html">kayıt formunda</a> plaka bilgisini
+                belirtmesi giriş işlemlerini hızlandırır.</li>
+              <li>Toplu taşıma seçenekleri ve otopark bilgisi program
+                duyurusuyla birlikte paylaşılacaktır.</li>
+            </ul>
+          </div>
+
+          <div class="aside-box">
+            <h3>Kayıt</h3>
+            <ul class="info-list">
+              <li>Katılım ücretsiz ve sertifikalıdır; kontenjan sınırlıdır.</li>
+              <li><a href="kayit.html">Kayıt formuna git</a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Harita: layout.js üretir (adres site-data.js'ten gelir) -->
+  <section class="section section--soft">
+    <div class="container">
+      <div class="section__head">
+        <span class="section-label">Konum</span>
+        <h2 data-kydd-text="event.venueName">Yeditepe Üniversitesi Rektörlük Binası</h2>
+        <p data-kydd-text="event.venueAddress"></p>
+      </div>
+      <div data-kydd="map"></div>
+    </div>
+  </section>
+
+</main>
+
+<div data-kydd="footer"></div>
+<script>KYDD.mountFooter();</script>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

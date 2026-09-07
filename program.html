@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Program | KYDD 2026</title>
+<meta name="description" content="KYDD 2026 çalıştay programı — 21 Eylül 2026, 09.00–18.00, Yeditepe Üniversitesi Rektörlük Binası, Mario Levi Salonu.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/site-data.js"></script>
+<script src="assets/js/layout.js"></script>
+</head>
+<body data-page="program.html">
+
+<a class="skip-link" href="#main">İçeriğe geç</a>
+
+<div data-kydd="header"></div>
+<script>KYDD.mountHeader();</script>
+
+<main id="main">
+
+  <section class="page-head">
+    <div class="container">
+      <ul class="breadcrumb">
+        <li><a href="index.html">Ana sayfa</a></li>
+        <li>Program</li>
+      </ul>
+      <h1>Program</h1>
+      <p>
+        <span data-kydd-text="event.dateText"></span> ·
+        <span data-kydd-text="event.timeText"></span> ·
+        <span data-kydd-text="event.venueHall"></span>
+      </p>
+    </div>
+  </section>
+
+  <div data-kydd="factbar"></div>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__head">
+        <span class="section-label">Gün Planı</span>
+        <h2>Tam gün akış</h2>
+        <p>
+          Aşağıdaki akış tek günlük programın genel çerçevesini gösterir.
+          Saatler ve oturum başlıkları <strong>taslak</strong> niteliğindedir;
+          davetli konuşmacılar kesinleştikçe bu sayfa güncellenecektir.
+        </p>
+      </div>
+
+      <ul class="timeline" data-kydd="program"></ul>
+
+      <div class="section__foot">
+        <div class="notice">
+          Kesinleşen program bu sayfada yayımlanacak ve PDF olarak
+          indirilebilir hâle getirilecektir. Duyurulardan haberdar olmak için
+          <a href="kayit.html">kayıt formunu</a> doldurabilirsiniz.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--soft">
+    <div class="container">
+      <div class="section__head section__head--center">
+        <span class="section-label">Oturum Başlıkları</span>
+        <h2>Gün içinde ele alınacak konular</h2>
+        <p>Programdaki oturumlar aşağıdaki odak alanları etrafında
+          kurgulanmaktadır.</p>
+      </div>
+      <div class="card-grid" data-kydd="topics"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="cta reveal">
+        <h2>Yerinizi ayırtın</h2>
+        <p>Katılım ücretsiz ve sertifikalıdır; kontenjan sınırlıdır.</p>
+        <div class="cta__actions">
+          <a class="btn btn--mint" href="kayit.html">Kayıt Ol</a>
+          <a class="btn btn--outline" href="iletisim.html">İletişime Geç</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div data-kydd="footer"></div>
+<script>KYDD.mountFooter();</script>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

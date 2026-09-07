@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kayıt — yönlendiriliyorsunuz | KYDD 2026</title>
+<meta name="description" content="KYDD 2026 çalıştayı kayıt formuna yönlendiriliyorsunuz.">
+<!-- Yönlendirme sayfasıdır; arama sonuçlarında görünmesine gerek yok. -->
+<meta name="robots" content="noindex,follow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="assets/js/site-data.js"></script>
+<script src="assets/js/layout.js"></script>
+</head>
+<body data-page="kayit.html">
+
+<main class="redirect" id="main">
+  <div class="redirect__card">
+
+    <span class="redirect__brand">KYDD <span>2026</span></span>
+
+    <div class="redirect__spinner" aria-hidden="true"></div>
+
+    <h1>Kayıt formuna yönlendiriliyorsunuz</h1>
+
+    <p class="redirect__text">
+      Kayıtlar Google Forms üzerinden alınmaktadır.
+      Form birazdan açılacaktır.
+    </p>
+
+    <!-- Yönlendirme çalışmazsa (JavaScript kapalı, tarayıcı engelledi vb.)
+         kullanıcı buradan elle devam edebilir. -->
+    <a class="btn btn--mint" data-kydd-register href="#">Formu şimdi aç</a>
+
+    <p class="redirect__back">
+      <a href="index.html">← Çalıştay sayfasına dön</a>
+    </p>
+
+    <p class="visually-hidden" role="status" aria-live="polite">
+      Kayıt formuna yönlendiriliyorsunuz.
+    </p>
+
+  </div>
+
+  <noscript>
+    <!-- JavaScript kapalıysa tarayıcının kendi yönlendirmesi devreye girer. -->
+    <meta http-equiv="refresh"
+          content="1;url=https://docs.google.com/forms/d/e/1FAIpQLSfNOB5hr_VWhuBr6BRjGLBqo-z8oChTPB5nf1CnIOBsHwLeRA/viewform">
+  </noscript>
+</main>
+
+<script>
+(function () {
+  "use strict";
+  var url = (window.KYDD_DATA && window.KYDD_DATA.event.registerUrl) || "";
+  if (!url) return;
+
+  /* "Formu şimdi aç" düğmesini hemen doldur ki yönlendirme gecikse bile
+     tıklanabilir olsun. */
+  if (window.KYDD && window.KYDD.mountSections) window.KYDD.mountSections();
+
+  window.setTimeout(function () {
+    /* replace(): bu sayfa tarayıcı geçmişine yazılmaz. Aksi hâlde formdan
+       "geri" tuşuna basan kullanıcı buraya düşer ve anında yeniden forma
+       atılırdı — geri tuşu kilitlenirdi. */
+    window.location.replace(url);
+  }, 1000);
+})();
+</script>
+</body>
+</html>

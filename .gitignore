@@ -1,0 +1,16 @@
+# Afişin WhatsApp'tan gelen özgün kopyası. Sitede kullanılan sürüm
+# assets/kydd2026-afis.jpeg altında; aynı görseli iki kez taşımayalım.
+WhatsApp Image*.jpeg
+WhatsApp Image*.jpg
+
+# İşletim sistemi
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Editör
+.vscode/
+.idea/
+*.swp
+*~
