@@ -94,6 +94,19 @@ sessizce avatara döner. Kalıcı çözüm için fotoğrafları (izin alarak)
 `assets/kisiler/` altına indirip `PHOTOS` adreslerini yerel yollarla
 değiştirin.
 
+## Yayındaki adres
+
+**https://kydd2026.github.io**
+
+GitHub Pages üzerinden yayınlanır. Depo `<organizasyon>.github.io` adını
+taşıdığı için Pages kendiliğinden etkindir; ayrı bir ayar gerekmez.
+`main` dalına yapılan her push birkaç dakika içinde canlıya yansır.
+
+İleride kurumsal bir alt alan adı (örn. `kydd2026.yeditepe.edu.tr`)
+alınırsa: DNS'te `CNAME` kaydı `kydd2026.github.io` adresine yönlendirilir
+ve depo köküne alan adını içeren bir `CNAME` dosyası eklenir. Sertifikayı
+GitHub ücretsiz sağlar.
+
 ## Yerel önizleme
 
 ```
