@@ -46,6 +46,9 @@ window.KYDD_DATA = (function () {
     phoneHref: "tel:+905343768313",
     email: "yukarbon@yeditepe.edu.tr",
     emailHref: "mailto:yukarbon@yeditepe.edu.tr",
+    /* Sözlü sunum başvuruları bu adrese yapılır. */
+    abstractEmail: "kubra.akben@yeditepe.edu.tr",
+    abstractEmailHref: "mailto:kubra.akben@yeditepe.edu.tr",
     center: "Yeditepe Üniversitesi Karbon Çözümleri Uygulama ve Araştırma Merkezi",
 
     // Tanıtım afişi (900x1600)

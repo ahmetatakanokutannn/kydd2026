@@ -1064,6 +1064,33 @@ hr {
   font-size: 0.95rem;
 }
 
+/* Hoş geldiniz metnindeki akademik katılım çağrısı */
+.notice--academic {
+  margin-top: 2rem;
+  max-width: 72ch;
+  padding: 1.5rem 1.6rem;
+  border-left-width: 4px;
+  border-left-color: var(--green);
+}
+
+.notice--academic h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.6rem;
+}
+
+.notice--academic p {
+  margin-bottom: 0.8rem;
+}
+
+.notice--academic p:last-child {
+  margin-bottom: 0;
+}
+
+.notice--academic a {
+  font-weight: 600;
+  word-break: break-word;
+}
+
 /* Yer tutucu (konuşmacılar vb.) */
 .placeholder {
   border: 1px dashed #c2ccd4;

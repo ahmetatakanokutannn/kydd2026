@@ -14,3 +14,8 @@ Desktop.ini
 .idea/
 *.swp
 *~
+
+# Icerik kaynak belgeleri (metin sayfalara islendi, dosya depoda durmasin)
+*.docx
+*.doc
+*.pdf
