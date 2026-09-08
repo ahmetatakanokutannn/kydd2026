@@ -439,10 +439,6 @@ window.KYDD_DATA = (function () {
       a: "Karbon yakalama, değerlendirme, depolama ve kaynak verimliliği alanlarında çalışan akademisyenler, lisansüstü öğrenciler, araştırmacılar ile sanayi ve kamu temsilcileri katılabilir."
     },
     {
-      q: "Kayıt onayını nasıl alacağım?",
-      a: "Kayıt formunu doldurduktan sonra e-posta adresinize bir onay iletisi gönderilir. Onay iletisi ulaşmazsa lütfen iletişim sayfasından bize yazın."
-    },
-    {
       q: "Kampüse araçla gelebilir miyim?",
       a: "Evet. Araçla gelecek katılımcıların kayıt formundaki araç plakası alanını doldurması, kampüs girişindeki işlemleri hızlandırır."
     },
@@ -453,10 +449,6 @@ window.KYDD_DATA = (function () {
     {
       q: "Sunum veya poster başvurusu yapabilir miyim?",
       a: "Bildiri çağrısı, gönderim biçimi ve değerlendirme takvimi Bilim Kurulu tarafından belirlendikten sonra Konuşmacılar sayfasında duyurulacaktır."
-    },
-    {
-      q: "Program kesinleşti mi?",
-      a: "Program sayfasındaki akış taslaktır. Oturum başlıkları ve davetli konuşmacılar kesinleştikçe aynı sayfada güncellenecek ve PDF olarak indirilebilir hâle getirilecektir."
     },
     {
       q: "Öğle yemeği ve ikramlar dâhil mi?",
