@@ -197,7 +197,7 @@ window.KYDD_DATA = (function () {
       },
       {
         time: "12.30 – 13.30",
-        title: "Öğle arası ve poster sunumları",
+        title: "Öğle arası",
         tag: "Ara",
         type: "break"
       },
@@ -445,10 +445,6 @@ window.KYDD_DATA = (function () {
     {
       q: "Sertifika nasıl verilecek?",
       a: "Katılım sertifikaları çalıştay sonunda, kapanış oturumunun ardından takdim edilir. Gün içinde katılım listesinin imzalanması gerekir."
-    },
-    {
-      q: "Sunum veya poster başvurusu yapabilir miyim?",
-      a: "Bildiri çağrısı, gönderim biçimi ve değerlendirme takvimi Bilim Kurulu tarafından belirlendikten sonra Konuşmacılar sayfasında duyurulacaktır."
     },
     {
       q: "Öğle yemeği ve ikramlar dâhil mi?",
